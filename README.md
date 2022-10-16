@@ -42,5 +42,5 @@ test_10_move_from_constructor_to_fillings.py
 #  проверка перехода из Раздела "Конструктор" к разделу "Соусы"
 test_11_move_from_constructor_to_sauce.py
 
-#  проверка перехода из Раздела "Конструктор" к разделу "Начинки"
+#  проверка перехода из Раздела "Конструктор" к разделу "Булки"
 test_12_move_from_constructor_to_buns.py
