@@ -5,10 +5,13 @@ conftest.py
 
 # проверка ввода имени при регистрации в системе Stellar Burgers
 test_01_1_registration_check_name.py
+
 # проверка ввода email при регистрации 
 test_01_2_registration_check_email.py
+
 # проверка ввода пароля при регистрации (более 6 символов)
 test_01_3_registration_check_password_more_6_sings.py
+
 # проверка ввода пароля при регистрации (менее 6 символов)
 test_01_4_registration_check_password_less_6_sings.py
 
@@ -44,3 +47,4 @@ test_11_move_from_constructor_to_sauce.py
 
 #  проверка перехода из Раздела "Конструктор" к разделу "Булки"
 test_12_move_from_constructor_to_buns.py
+
