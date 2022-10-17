@@ -7,5 +7,5 @@ class Registration:
        self.password = password
 
 @pytest.fixture #фикстура регистрации
-def registration():
-       return Registration(name='Вероника', email = 'user159@yandex.ru', password='Mir41941@')
+def test_registration():
+       return Registration(name='Вероника', email = 'user159@yandex.ru', password='Mir1941@')

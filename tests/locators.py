@@ -11,7 +11,7 @@ class TestLocators:
     Recovery_button_locator = (By.XPATH, ".// *[@id ='root']/div/main/div/form/button") #Кнопка "Восстановить"
     Login_button_locator = (By.XPATH, ".// *[@id ='root']/div/main/div/div/p/a")  # Кнопка "Войти"
     Constructor_button_locator = (By.XPATH, ".// *[@id ='root']/div/header/nav/ul/li[1]/a/p")  # Кнопка "Конструктор"
-    Logo_button_locator = (By.XPATH, ".// *[@id ='root']/div/header/nav/div/a/svg")  # Кнопка 'Логотип'
+    Logo_button_locator = (By.XPATH, "//*[contains(@class, 'AppHeader_header__logo')]")  # Кнопка 'Логотип'
     Logout_button_locator = (By.XPATH, ".//*[@id='root']/div/main/div/nav/ul/li[3]/button")  # Кнопка 'Выйти'
     Fillings_tab_locator = (By.XPATH, ".// *[@id = 'root']/div/main/section[1]/div[1]/div[3]/span") # Переход к категории "Начинки"
     Example_fillings_locator = (By.XPATH, ".// *[@id = 'root']/div/main/section[1]/div[2]/ul[3]/a[1]/img") # Мясо бессмертных моллюсков Protostomia
