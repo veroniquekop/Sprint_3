@@ -21,4 +21,3 @@ class TestLocators:
     Example_buns_locator = (By.XPATH, ".// *[@id = 'root']/div/main/section[1]/div[2]/ul[1]/a[1]/img") # Флюоресцентная булка
 
 
-
